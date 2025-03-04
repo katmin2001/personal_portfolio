@@ -16,7 +16,7 @@ const Hero = () => {
                         >
                             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-tertiary">
                                 <img
-                                    src="../../public/image/IMG_7671.JPG"
+                                    src="../../public/IMG_7671.JPG"
                                     alt="Profile"
                                     className="w-full h-full object-cover"
                                 />
