@@ -54,15 +54,15 @@ const Contact = () => {
                     <div className="mt-6 flex flex-col gap-6">
                         <div className="flex items-center gap-4">
                             <FaEnvelope className="text-2xl text-white" />
-                            <p className="text-white-100 text-[16px]">your.email@example.com</p>
+                            <p className="text-white-100 text-[16px]">anh.trannguyenduc@vti.com.vn</p>
                         </div>
                         <div className="flex items-center gap-4">
                             <FaPhone className="text-2xl text-white" />
-                            <p className="text-white-100 text-[16px]">+1 (123) 456-7890</p>
+                            <p className="text-white-100 text-[16px]">0886223101</p>
                         </div>
                         <div className="flex items-center gap-4">
                             <FaMapMarkerAlt className="text-2xl text-white" />
-                            <p className="text-white-100 text-[16px]">Your City, Country</p>
+                            <p className="text-white-100 text-[16px]">Ha Noi, Viet Nam</p>
                         </div>
                     </div>
 
