@@ -36,8 +36,7 @@ const Hero = () => {
                                 Software Developer
                             </p>
                             <p className="text-secondary mt-4 text-[17px] max-w-3xl">
-                                I'm a passionate software developer with expertise in web development,
-                                currently studying at [Your University]. I specialize in creating
+                                I'm a passionate software developer with expertise in web development. I specialize in creating
                                 user-friendly applications with modern technologies.
                             </p>
 
@@ -51,13 +50,13 @@ const Hero = () => {
                             </div>
 
                             <div className="mt-6 flex gap-4">
-                                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
+                                <a href="https://github.com/katmin2001" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                                     <FaGithub size={30} />
                                 </a>
                                 <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                                     <FaLinkedin size={30} />
                                 </a>
-                                <a href="mailto:your.email@example.com" className="text-white hover:text-secondary transition-colors">
+                                <a href="mailto:anh.trannguyenduc@vti.com.vn" className="text-white hover:text-secondary transition-colors">
                                     <FaEnvelope size={30} />
                                 </a>
                             </div>

@@ -5,11 +5,11 @@ import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 
 const experiences = [
     {
-        title: "Software Developer",
-        company_name: "Tech Company",
+        title: "Web Developer",
+        company_name: "VTI",
         icon: <FaBriefcase />,
         iconBg: "#383E56",
-        date: "Jan 2023 - Present",
+        date: "Jun 2023 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -19,10 +19,10 @@ const experiences = [
     },
     {
         title: "Web Development Intern",
-        company_name: "Startup Inc.",
+        company_name: "NODO",
         icon: <FaBriefcase />,
         iconBg: "#E6DEDD",
-        date: "Jun 2022 - Dec 2022",
+        date: "Mar 2023 - May 2023",
         points: [
             "Assisted in developing user interfaces using HTML, CSS, and JavaScript.",
             "Worked on bug fixing and improving application performance.",
@@ -31,11 +31,11 @@ const experiences = [
         ],
     },
     {
-        title: "Bachelor's Degree in Computer Science",
-        company_name: "Your University",
+        title: "Engineer's Degree in Information Technology",
+        company_name: "PTIT University",
         icon: <FaGraduationCap />,
         iconBg: "#383E56",
-        date: "Sep 2019 - Jun 2023",
+        date: "Sep 2019 - Mar 2023",
         points: [
             "Studied core computer science subjects including algorithms, data structures, and software engineering.",
             "Completed several projects in web development, mobile app development, and database management.",
