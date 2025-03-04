@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    @apply bg-primary text-white-100;
+}
+
+.hash-span {
+    margin-top: -100px;
+    padding-bottom: 100px;
+    display: block;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.vertical-timeline-element-content-arrow {
+    border-right: 7px solid white !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #151030;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa6c3;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7b7897;
+}
+
+/* Gradient text */
+.gradient-text {
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Button styles */
+.btn {
+    @apply px-6 py-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary bg-tertiary;
+}
+
+.btn:hover {
+    @apply bg-black-200;
+}
+
+/* Card styles */
+.card {
+    @apply bg-tertiary rounded-2xl p-5 sm:w-[360px] w-full;
+}
+
+.card-img {
+    @apply w-full h-[230px] object-cover rounded-2xl;
+}
+
+/* Section styles */
+.section-wrapper {
+    @apply sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0;
+}
+
+.section-heading {
+    @apply text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px];
+}
+
+.section-subheading {
+    @apply text-secondary font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px];
+}
+
+/* Navbar styles */
+.nav-link {
+    @apply text-secondary hover:text-white text-[18px] font-medium cursor-pointer;
+}
+
+.nav-link.active {
+    @apply text-white;
+}
