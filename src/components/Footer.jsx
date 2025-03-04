@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-4 md:mb-0">
-                        <h2 className="text-2xl font-bold">Your Name</h2>
+                        <h2 className="text-2xl font-bold">Kenzy</h2>
                         <p className="text-secondary mt-2">Software Developer</p>
                     </div>
 
@@ -18,7 +18,7 @@ const Footer = () => {
                         <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                             <FaLinkedin size={24} />
                         </a>
-                        <a href="https://https://www.facebook.com/kenzy.mine/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
+                        <a href="https://www.facebook.com/kenzy.mine/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                             <FaFacebook size={24} />
                         </a>
                     </div>
@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <div className="mt-8 border-t border-gray-700 pt-8 text-center">
                     <p className="text-secondary">
-                        &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+                        &copy; {new Date().getFullYear()} Kenzy. All rights reserved.
                     </p>
                 </div>
             </div>
